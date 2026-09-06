@@ -1,4 +1,5 @@
 #include "task001.h"
+#include "iostream"
 
 #include <unordered_map>
 
@@ -6,7 +7,13 @@
 std::vector<int> twoSum(const std::vector<int>& nums, int target) {
     std::unordered_map<int, int> seen; // значение -> индекс
 
-    // TODO: реализуйте поиск за O(n)
+    for (int i = 0; i < nums.size(); ++i) {
+        auto it = seen.find(target - nums[i]);
+        if (it != seen.end()) {
+            return {it->second, i};
+        }
+        seen.insert({nums[i], i});
+    }
 
     return {};
 }
