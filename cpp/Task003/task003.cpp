@@ -11,7 +11,17 @@ bool isValid(const std::string& s) {
         {'}', '{'}
     };
 
-    // TODO: реализуйте проверку корректности
+    for (char ch: s) {
+        if (!st.empty()) {
+            if (matching.find(ch) != matching.end()) {
+                if (matching.at(ch) == st.top()) {
+                    st.pop();
+                    continue;
+                }
+            }
+        }
+        st.push(ch);
+    }
 
     return st.empty();
 }
