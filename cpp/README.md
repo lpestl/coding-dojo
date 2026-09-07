@@ -35,12 +35,12 @@
 
 ### 2.3 STL
 
-- Как устроены `std::vector`, `std::list`, `std::map`, `std::unordered_map`?
-- Какова сложность основных операций?
-- Когда происходит realloc у `vector`?
-- Что происходит с итераторами после `erase`/`insert`?
-- Чем `std::set` отличается от `std::unordered_set`?
-- Как работают хеш-таблицы?
+- [Как устроены `std::vector`, `std::list`, `std::map`, `std::unordered_map`?](STL.md#1-как-устроены-stdvector-stdlist-stdmap-stdunordered_map)
+- [Какова сложность основных операций?](STL.md#2-какова-сложность-основных-операций)
+- [Когда происходит realloc у `vector`?](STL.md#3-когда-происходит-realloc-у-vector)
+- [Что происходит с итераторами после `erase`/`insert`?](STL.md#4-что-происходит-с-итераторами-после-eraseinsert)
+- [Чем `std::set` отличается от `std::unordered_set`?](STL.md#5-чем-stdset-отличается-от-stdunordered_set)
+- [Как работают хеш-таблицы?](STL.md#6-как-работают-хеш-таблицы)
 
 ### 2.4 Modern C++
 
