@@ -44,10 +44,10 @@
 
 ### 2.4 Modern C++
 
-- Move semantics.
-- Rule of 0/3/5.
-- Lambda expressions.
-- `auto`, `decltype`.
+- [Move semantics.](ModernCpp.md#1-move-semantics)
+- [Rule of 0/3/5.](ModernCpp.md#2-rule-of-035)
+- [Lambda expressions.](ModernCpp.md#3-lambda-expressions)
+- [`auto`, `decltype`.](ModernCpp.md#4-auto-decltype)
 - `std::optional`, `std::variant`, `std::any`.
 - Concepts.
 - Templates.
