@@ -35,19 +35,19 @@
 
 ### 2.3 STL
 
-- Как устроены `std::vector`, `std::list`, `std::map`, `std::unordered_map`?
-- Какова сложность основных операций?
-- Когда происходит realloc у `vector`?
-- Что происходит с итераторами после `erase`/`insert`?
-- Чем `std::set` отличается от `std::unordered_set`?
-- Как работают хеш-таблицы?
+- [Как устроены `std::vector`, `std::list`, `std::map`, `std::unordered_map`?](STL.md#1-как-устроены-stdvector-stdlist-stdmap-stdunordered_map)
+- [Какова сложность основных операций?](STL.md#2-какова-сложность-основных-операций)
+- [Когда происходит realloc у `vector`?](STL.md#3-когда-происходит-realloc-у-vector)
+- [Что происходит с итераторами после `erase`/`insert`?](STL.md#4-что-происходит-с-итераторами-после-eraseinsert)
+- [Чем `std::set` отличается от `std::unordered_set`?](STL.md#5-чем-stdset-отличается-от-stdunordered_set)
+- [Как работают хеш-таблицы?](STL.md#6-как-работают-хеш-таблицы)
 
 ### 2.4 Modern C++
 
-- Move semantics.
-- Rule of 0/3/5.
-- Lambda expressions.
-- `auto`, `decltype`.
+- [Move semantics.](ModernCpp.md#1-move-semantics)
+- [Rule of 0/3/5.](ModernCpp.md#2-rule-of-035)
+- [Lambda expressions.](ModernCpp.md#3-lambda-expressions)
+- [`auto`, `decltype`.](ModernCpp.md#4-auto-decltype)
 - `std::optional`, `std::variant`, `std::any`.
 - Concepts.
 - Templates.
